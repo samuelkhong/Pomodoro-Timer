@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Timeout Timer",
+    "version": "1.0",
+    "description": "Tracks tasks through a countdown timer",
+    "action": {
+      "default_title": "Pomodoro Timeout",
+      "default_popup": "popup/popup.html"
+    },
+    "permissions": ["storage", "alarms", "notifications"],
+    "background": {
+      "service_worker": "background.js"
+    }
+    
+  }
+  
