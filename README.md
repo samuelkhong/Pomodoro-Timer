@@ -21,13 +21,16 @@ The code in this Chrome extension implements a timer with a focus on managing ta
 
 ## How to Use
 
-1. Install the Chrome extension.
-2. Open the extension popup.
-3. Start the timer using the "Start Timer" button.
-4. Add tasks using the "Add Task" button.
-5. The timer will continue running even if you close the popup.
-6. When the timer reaches 25 minutes, a notification will appear.
-7. You can pause, reset, or edit tasks as needed.
+1. Go to menu section of chrome browser.
+2. Open up extensions.
+3. Turn on developer mode.
+4. Load Timeout Timer as load unpacked.
+5. Open the extension popup.
+6. Start the timer using the "Start Timer" button.
+7. Add tasks using the "Add Task" button.
+8. The timer will continue running even if you close the popup.
+9. When the timer reaches 25 minutes, a notification will appear.
+10. You can pause, reset, or edit tasks as needed.
 
 ## Code Structure
 
@@ -40,7 +43,7 @@ The code in this Chrome extension implements a timer with a focus on managing ta
 ## Default Settings
 
 - The default timer duration is set to 25 minutes.
-- The timer starts as soon as you open the extension popup.
+- The timer will not start until you hit start
 - Tasks are saved using Chrome's local storage.
 
 ## Notifications
