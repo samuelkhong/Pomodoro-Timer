@@ -2,7 +2,6 @@
 
 # README: Pomodoro Timer
 
-This README provides a high-level overview of the Chrome extension code, which serves as a timer with specific functionality:
 
 ## Overview
 
