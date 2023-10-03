@@ -19,7 +19,7 @@ chrome.alarms.onAlarm.addListener((alarm) => {
                     // If 25 minutes have passed, create a notification
                     chrome.notifications.create('', {
                         type: 'basic',
-                        iconUrl: 'icon.png', // Replace with your icon URL
+                        iconUrl: 'icon.png', 
                         title: 'Task complete',
                         message: '25 minutes has passed',
                     });
